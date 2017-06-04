@@ -81,7 +81,7 @@ powered from VGA socket, no external power required
 6. Full-spectrum LED 110(220) VAC 50W - 8 pcs
 7. "Wind" fan 12VDC - 1pc
 8. Water pump 12VDC - 1pc
-9. Soil humidity sensor. I recommend DIY sensor with graphite probes. Sensors from aliexpress sucks but cheap. - 1pc
+9. Soil humidity sensor. I recommend DIY sensor with graphite electrodes. Sensors from aliexpress sucks but cheap. - 1pc
 10. Soldering tools, flux etc... OR, you can order ready-to-go pre-assembled PCB with attached layout file.
 11. Arduino Nano V3 for (re)programming for AtMEGA
 8. Connectors, wires etc.
@@ -97,7 +97,7 @@ It will not be very "verbose" instruction, and only general steps are included. 
 
 
 
-3. Testing controller board (you have to write your own firmware to test relays if you want to check them before place to "production")
+3. Testing controller board (~~you have to write your own firmware to test relays if you want to check them before place to "production"~~ see repository to test firmware)
 4. Etching, Assembling and soldering VGA to I2C board
 5. Install Debian 8.3 and above to master PC
 6. Connect small board to VGA socket on master PC (or to I2C pins on Raspberry Pi)
@@ -107,7 +107,7 @@ It will not be very "verbose" instruction, and only general steps are included. 
 10. Assemble Hall sensor on exhaust fan if needed, attach connectors to cable. See pinout on PCB layout. Use Connfly HU-3 (DS1070-3 F).
 11. Make your own graphite-based soil sensor or buy it on aliexpress, attach wire and connectors. Use Connfly HU-3 (DS1070-3 F).
 12. Assemble watering system with pump, water tank and silicone tubes with holes. Firmware provides 10sec activity on watering relay by default, you can change it as you wish.
-13. Assemble all the stuff in growbox. Connect PSUs. Connect output ground sockets between 12VDC and 5VDC PSUs!!! Check connections triple times, as dangerous high voltage presents on controller board and relays controls it.
+13. Assemble all the stuff in growbox. Connect PSUs. Connect output ground sockets between 12VDC and 5VDC PSUs!!! Check connections triple times, as dangerous high voltage presents on controller board and relays control it.
 14. Test it without load (lights etc), just "click" relays remotely with i2cset command to check all is OK.
 15. Install MySQL and libmysql. Create db and a table:
 
