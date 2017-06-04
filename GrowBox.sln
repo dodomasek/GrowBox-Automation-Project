@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GrowBox2File", "GrowBox2File\GrowBox2File.vcxproj", "{C069A528-93E3-4C0E-8AE5-772BB42E8D10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GrowBox_CLI", "GrowBox_CLI\GrowBox_CLI.vcxproj", "{01B11DE8-8885-4784-BC43-5A003609E482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Debug|ARM.Build.0 = Debug|ARM
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Debug|x64.ActiveCfg = Debug|x64
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Debug|x64.Build.0 = Debug|x64
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Debug|x86.ActiveCfg = Debug|x86
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Debug|x86.Build.0 = Debug|x86
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Release|ARM.ActiveCfg = Release|ARM
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Release|ARM.Build.0 = Release|ARM
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Release|x64.ActiveCfg = Release|x64
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Release|x64.Build.0 = Release|x64
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Release|x86.ActiveCfg = Release|x86
+		{C069A528-93E3-4C0E-8AE5-772BB42E8D10}.Release|x86.Build.0 = Release|x86
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Debug|ARM.ActiveCfg = Debug|ARM
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Debug|ARM.Build.0 = Debug|ARM
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Debug|x64.ActiveCfg = Debug|x64
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Debug|x64.Build.0 = Debug|x64
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Debug|x86.ActiveCfg = Debug|x86
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Debug|x86.Build.0 = Debug|x86
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Release|ARM.ActiveCfg = Release|ARM
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Release|ARM.Build.0 = Release|ARM
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Release|x64.ActiveCfg = Release|x64
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Release|x64.Build.0 = Release|x64
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Release|x86.ActiveCfg = Release|x86
+		{01B11DE8-8885-4784-BC43-5A003609E482}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

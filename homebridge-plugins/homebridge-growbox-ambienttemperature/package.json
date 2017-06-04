@@ -1,0 +1,18 @@
+{
+  "name": "homebridge-growbox-ambienttemperature",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for ambient temperatupe sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Apple",
+    "Homekit",
+    "Homebridge",
+    "growbox"
+  ],
+  "dependencies": { "mysql": "git+https://github.com/mysqljs/mysql" },
+  "author": "Gordon Freeman",
+  "license": "ISC"
+}

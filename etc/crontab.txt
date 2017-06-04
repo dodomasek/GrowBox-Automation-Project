@@ -1,0 +1,7 @@
+MAILTO=""
+0 5 * * * /usr/sbin/i2cset -y 2 0x33 1 2 3 1 i && sleep 5 && /usr/sbin/i2cset -y 2 0x33 1 2 3 7 i
+0 23 * * * /usr/sbin/i2cset -y 2 0x33 1 2 3 2 i && sleep 5 && /usr/sbin/i2cset -y 2 0x33 1 2 3 8 i
+50 23 * * * /usr/sbin/i2cset -y 2 0x33 1 2 3 5 i
+0 0-4 * * * /usr/sbin/i2cset -y 2 0x33 1 2 3 6 i
+50 0-3 * * * /usr/sbin/i2cset -y 2 0x33 1 2 3 5 i
+

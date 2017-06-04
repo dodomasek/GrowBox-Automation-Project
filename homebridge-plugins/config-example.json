@@ -1,0 +1,45 @@
+{
+ "bridge": {
+ "name": "VCR",
+ "username": "AA:EC:3D:E3:CE:30",
+ "port": 51821,
+ "pin": "031-64-635"
+ },
+
+"accessories": [
+        {
+        "accessory": "MainFan",
+        "name": "GrowBox Main Fan"
+        },
+	{
+        "accessory": "LightFan",
+        "name": "GrowBox Light Fan"
+        },
+        {
+        "accessory": "Light",
+        "name": "GrowBox Light"
+        },
+        {
+        "accessory": "LightTemperature",
+        "name": "GrowBox Light Temp"
+        },
+        {
+        "accessory": "AmbientTemperature",
+        "name": "GrowBox Ambient Temp"
+        },
+        {
+        "accessory": "AmbientHumidity",
+        "name": "GrowBox Ambient Humidity"
+        },
+	{
+        "accessory": "SoilSensor",
+        "name": "GrowBox Soil Humidity"
+        }
+],
+
+
+"platforms": [
+]
+
+}
+
