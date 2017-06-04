@@ -100,7 +100,7 @@ It will not be very "verbose" instruction, and only general steps are included. 
 3. Testing controller board (you have to write your own firmware to test relays if you want to check them before place to "production")
 4. Etching, Assembling and soldering VGA to I2C board
 5. Install Debian 8.3 and above to master PC
-6. Connect small board to VGA socket on master PC
+6. Connect small board to VGA socket on master PC (or to I2C pins on Raspberry Pi)
 7. Install i2c-dev package and make auto-boot i2c kernel module, connect controller board and small board using 3-pin i2c connectors on them. See pinout on PCB layout. Use Connfly HU-3 (DS1070-3 F).
 8. Check to ensure that master PC and controller board can communicate via i2c bus (see i2cdetect linux command)
 9. Assemble LEDs on heatsink with thermoglue. Attach 12VDC fans and DS18B21 temp sensor on it. See pinout on PCB layout. Use Connfly HU-3 (DS1070-3 F) for temp sensor 1-Wire interface.
@@ -118,7 +118,7 @@ $ mysql> USE GrowBox;
 $ mysql> CREATE TABLE GrowBoxTelemetry (id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, datetime VARCHAR(20) NOT NULL DEFAULT 0, lightfanon BOOL NOT NULL DEFAULT 0, lightfanrpm INT NOT NULL DEFAULT 0, mainfanon BOOL NOT NULL DEFAULT 0, mainfanrpm INT NOT NULL DEFAULT 0, lighttemp FLOAT(4,2) NOT NULL DEFAULT '0.00', lighton BOOL NOT NULL DEFAULT 0, ambienttemp FLOAT(4,2) NOT NULL DEFAULT 0.00, ambienthum FLOAT(4,2) NOT NULL DEFAULT 0.00, soilsensorvalue FLOAT(4,2) NOT NULL DEFAULT 0.00, sprinkleron BOOL NOT NULL DEFAULT 0, wateringon BOOL NOT NULL DEFAULT 0, reservedon BOOL NOT NULL DEFAULT 0, windon BOOL NOT NULL DEFAULT 0, heartbeats INT NOT NULL DEFAULT 0, timestamp int(11) NOT NULL DEFAULT 0);
 ```
 
-16. Compile included GrowBox2File and GrowBox_CLI sources. I recommend Visual Studio 2017 Enterprise. Yeah, torrents will help) Make GrowBox2File auto-start.
+16. Compile included GrowBox2File and GrowBox_CLI sources. Check your I2C device path ("/dev/i2c-2" or "/dev/i2c-1" - depends on your system) I recommend Visual Studio 2017 Enterprise. Yeah, torrents will help) Make GrowBox2File auto-start.
 17. Install [Homebridge](https://github.com/nfarina/homebridge)
 18. Install [npm](https://github.com/npm/npm)
 19. Place included homebridge plugins folders to /usr/lib/node-modules/ directory. Install them via npm locally, each folder. Make homebridge autostart.
