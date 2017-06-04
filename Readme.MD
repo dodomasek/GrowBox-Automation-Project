@@ -12,7 +12,7 @@ It has three main components:
 
 1. A "master" PC driven by Debian8. See recommendations below
 2. A controller board in growbox, which has own small "brain" (AtMEGA328P aka "Arduino") to control light, temperature and collect telemetry data and send to master. Includes peripheral sensors.
-3. Executive compartments driven by relays on controller board (light, fans etc).
+3. Executive devices driven by relays on controller board (light, fans etc).
 
 # Pre-Requisites
 
@@ -71,7 +71,7 @@ powered from VGA socket, no external power required
 6. P82B715N chip, DIP-8 - 1pc
 7. Copper-foiled fiberglass or laminate 100x50mm single-side. PCB layout desigh included in repository. Sprint Layout 5.0 software required.
 
-# Executive compartments and other growbox hardware
+# Executive devices and other growbox hardware
 
 1. PSU 12VDC 10A - 1pc
 2. PSU 5VDC 5A - 1pc
