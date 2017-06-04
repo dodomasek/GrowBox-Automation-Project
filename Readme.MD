@@ -105,7 +105,7 @@ It will not be very "verbose" instruction, and only general steps are included. 
 10. Assemble Hall sensor on exhaust fan if needed, attach connectors to cable. See pinout on PCB layout. Use Connfly HU-3 (DS1070-3 F).
 11. Make your own graphite-based soil sensor or buy it on aliexpress, attach wire and connectors. Use Connfly HU-3 (DS1070-3 F).
 12. Assemble watering system with pump, water tank and silicone tubes with holes. Firmware provides 10sec activity on watering relay by default, you can change it as you wish.
-13. Assemble all the stuff in growbox. Connect PSUs. Check connections triple times, as dangerous high voltage presents on controller board and relays controls it.
+13. Assemble all the stuff in growbox. Connect PSUs. Connect output ground sockets between 12VDC and 5VDC PSUs!!! Check connections triple times, as dangerous high voltage presents on controller board and relays controls it.
 14. Test it without load (lights etc), just "click" relays remotely with i2cset command to check all is OK.
 15. Install MySQL and libmysql. Create db and a table:
 
