@@ -24,7 +24,7 @@ Recommended Intel-based Asus P8H61 motherboard and similar, which have full kern
 Other way, you can use any linux-compatible host as master PC, but it must have video chip supported by I2C kernel driver. GAP using video socket (VGA\DVI\HDMI)
 as connection point to [I2C bus](https://en.wikipedia.org/wiki/I%c2%b2C) to communicate with controller board. No other special requirements.
 
-UPD: You can use Raspberry Pi or similar one-board Linux-compatible cards with GPIO\I2C\1-Wire support on-board.
+UPD: You can use Raspberry Pi or similar one-board Linux-compatible cards with GPIO\I2C\1-Wire support on-board. This way, you must use 4-Pin I2C connector on small board instead VGA port, to connect small board to master PC.
 
 
 # Controller board content
