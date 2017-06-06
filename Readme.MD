@@ -32,7 +32,7 @@ UPD: You can use Raspberry Pi or similar one-board Linux-compatible cards with G
 
 powered by 5VDC 5A PSU
 1. Copper-foiled fiberglass or laminate 100x150mm single-side (no inches and other f****ng english-metrics in this thread, please).
-PCB layout desigh included in repository. Sprint Layout 5.0 software required.
+PCB layout design included in repository. Sprint Layout 5.0 software required.
 2. Miniature PCB Relay NRP05-A-05D - 7pcs
 3. Contact group Xinya 306-021-12 - 8pcs
 3. 1N4841 diode - 7pcs
@@ -69,7 +69,7 @@ powered from VGA socket, no external power required
 4. Resistor 0.25W 4.7kOhm - 2pcs
 5. Resistor 0.25W 470Ohm - 2pcs
 6. P82B715N chip, DIP-8 - 1pc
-7. Copper-foiled fiberglass or laminate 100x50mm single-side. PCB layout desigh included in repository. Sprint Layout 5.0 software required.
+7. Copper-foiled fiberglass or laminate 100x50mm single-side. PCB layout design included in repository. Sprint Layout 5.0 software required.
 
 # Executive devices and other growbox hardware
 
